@@ -71,7 +71,7 @@ class Library {
     }
 
     addBook(book) {
-        if (this.book > 30) {
+        if (book.state > 30) {
         this.books.push(book)
         }
     }
